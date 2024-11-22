@@ -1,0 +1,91 @@
+/* Set the theme color of the component */
+$themeColor: #393939 !default;
+
+/* import theme style */
+@import '~vue-slider-component/lib/theme/default.scss';
+
+// Variables personalizadas de Bootstrap
+$theme-colors: (
+  "primary": #393939,
+  "secondary": #393939,
+  "success": #14722a,
+  "info": #17a2b8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "dark": #343a40,
+  "collection": #393939,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1340px  // Aumentar el ancho del contenedor para pantallas grandes
+);
+
+// Define tus colores personalizados antes de importar Bootstrap
+$pagination-active-color: #ffffff; // Color del texto para el botón activo
+$pagination-active-bg: #393939;    // Color de fondo para el botón activo
+$pagination-active-border-color: #393939; // Color del borde para el botón activo (opcional)
+
+// Otros colores de paginación (si deseas personalizarlos también)
+$pagination-hover-bg: #d4488e73;      // Color de fondo al pasar el cursor
+$pagination-hover-border-color: #d4488e73; // Color del borde al pasar el cursor
+
+:root {
+  --bs-collection: #393939; // Define la variable CSS directamente
+}
+// Importar Bootstrap para que use tus variables personalizadas
+@import "~bootstrap/scss/bootstrap";
+
+.row{
+  margin-left: 0px;
+}
+// Otros estilos personalizados
+body {
+  background-color: #f4f4f4;
+  font-family: 'Playfair Display', serif;
+}
+
+#search_main {
+  background-color: white;
+  border-radius: 5px;
+  height: 3.5em;
+}
+
+.top-margin-page{
+    margin-top: 6em;
+}
+
+.text-font p {
+  font-size: 2.2em;
+  color: #181818;
+  font-weight: lighter;
+  font-family: initial;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: var(--bs-collection);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2em !important;
+    padding-left: 0em;
+    margin-left: 0em;
+  }
+
+  .top-margin-page{
+    margin-top: 8em;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-size: 1em;
+  }
+}

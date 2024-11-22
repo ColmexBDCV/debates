@@ -1,0 +1,49 @@
+{
+  "name": "debates",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "lintfix": "npm run lint:js -- --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/i18n": "^6.0.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.25.3",
+    "express": "^4.21.1",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "lodash": "^4.17.21",
+    "nuxt": "^2.15.8",
+    "sass": "^1.79.5",
+    "sass-loader": "^10.5.2",
+    "vue": "^2.7.10",
+    "vue-i18n": "^8.28.2",
+    "vue-server-renderer": "^2.7.10",
+    "vue-slider-component": "^3.2.24",
+    "vue-template-compiler": "^2.7.10",
+    "vue2-leaflet": "^2.7.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@nuxt/types": "~2.18.0",
+    "@nuxtjs/eslint-config": "^11.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/i18n": "^8.0.0",
+    "eslint": "^8.24.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "husky": "^8.0.1"
+  }
+}
