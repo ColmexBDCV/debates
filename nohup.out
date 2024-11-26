@@ -1183,3 +1183,109 @@ npm notice
 
 ℹ Listening on: http://172.16.143.6:4000/
 Terminated
+
+> debates@1.0.0 start
+> nuxt start
+
+
+ WARN  [unplugin-vue-i18n]  vue-i18n@8 is not supported, since sinece Vue 2 was EOL on 2023.
+
+
+ WARN  Module @nuxtjs/i18n is disabled due to incompatibility issues:
+ - [nuxt] Nuxt version >=3.0.0-rc.11 is required but currently using 2.18.1
+
+ℹ Listening on: http://172.16.143.6:4000/
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+Document Payload: [object Object]
+Document Payload: [object Object]
+fetchDocumentData:  { site:
+   { id: 1,
+     repository_url:
+      'https://repositorio.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=Cart%C3%ADllas+ind%C3%ADgenas+ILV',
+     link_url: null,
+     monitor_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_creacion: '2024-10-15T06:11:54.472366',
+     user_id: 1,
+     name: 'Cartillas Indigenas',
+     collection: 'Cartíllas indígenas ILV',
+     base_url: 'https://repositorio.colmex.mx/',
+     contacto_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_modificacion: '2024-10-15T06:11:54.472366' },
+  data:
+   { title: [ 'Si nche xro an ni nque he na xrjon' ],
+     iterables:
+      { 'Temas Discutidos': [Array],
+        'Nuevo Metadato': [Array],
+        resource_type: [Array],
+        handle: 'https://hdl.handle.net/20.500.11986/COLMEX/10017275',
+        thematic_collection: [Array],
+        date_created: [Array],
+        subject: [Array],
+        identifier: '990008908740302716',
+        geographic_coverage: [Array],
+        extension: '49 páginas' } } }
+PDF url: https://repositorio.colmex.mx/downloads/xw42n9821
+Datos recibidos: { 'Temas Discutidos': [ 'Tema Nuevo 3', 'Tema Nuevo 2', 'Tema Nuevo 4' ],
+  'Nuevo Metadato': [ 'Valor 1' ],
+  resource_type: [ 'Libro' ],
+  handle: 'https://hdl.handle.net/20.500.11986/COLMEX/10017275',
+  thematic_collection: [ 'Cartíllas indígenas ILV' ],
+  date_created: [ '1973' ],
+  subject: [ 'Lenguaje y lenguas', 'Educación bilingüe', 'Popoloca (Idioma) ' ],
+  identifier: '990008908740302716',
+  geographic_coverage: [ 'San Juan Atzingo (Puebla)', 'Puebla (Estado)' ],
+  extension: '49 páginas' }
+fetchDocumentData:  { site:
+   { id: 1,
+     repository_url:
+      'https://repositorio.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=Cart%C3%ADllas+ind%C3%ADgenas+ILV',
+     link_url: null,
+     monitor_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_creacion: '2024-10-15T06:11:54.472366',
+     user_id: 1,
+     name: 'Cartillas Indigenas',
+     collection: 'Cartíllas indígenas ILV',
+     base_url: 'https://repositorio.colmex.mx/',
+     contacto_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_modificacion: '2024-10-15T06:11:54.472366' },
+  data:
+   { title: [ 'Si nche xro an ni nque he na xrjon' ],
+     iterables:
+      { 'Temas Discutidos': [Array],
+        'Nuevo Metadato': [Array],
+        resource_type: [Array],
+        handle: 'https://hdl.handle.net/20.500.11986/COLMEX/10017275',
+        thematic_collection: [Array],
+        date_created: [Array],
+        subject: [Array],
+        identifier: '990008908740302716',
+        geographic_coverage: [Array],
+        extension: '49 páginas' } } }
+PDF url: https://repositorio.colmex.mx/downloads/xw42n9821
+Datos recibidos: { 'Temas Discutidos': [ 'Tema Nuevo 3', 'Tema Nuevo 2', 'Tema Nuevo 4' ],
+  'Nuevo Metadato': [ 'Valor 1' ],
+  resource_type: [ 'Libro' ],
+  handle: 'https://hdl.handle.net/20.500.11986/COLMEX/10017275',
+  thematic_collection: [ 'Cartíllas indígenas ILV' ],
+  date_created: [ '1973' ],
+  subject: [ 'Lenguaje y lenguas', 'Educación bilingüe', 'Popoloca (Idioma) ' ],
+  identifier: '990008908740302716',
+  geographic_coverage: [ 'San Juan Atzingo (Puebla)', 'Puebla (Estado)' ],
+  extension: '49 páginas' }
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.

@@ -252,6 +252,19 @@ export const actions = {
       console.error('Error al enviar el mensaje al webhook de Microsoft Teams:', webhookError)
     }
   },
+  async adminLogin ({ getters }, { user, pass }) {
+    try {
+      const payload = {
+        username: user,
+        password: pass
+      }
+      console.log(payload)
+      const response = await this.$axios.post('/api/login', payload)
+      return response
+    } catch (webhookError) {
+      console.error('Error al enviar a login local:', webhookError)
+    }
+  },
   async getRepoData ({ getters, commit, dispatch }) {
     try {
       const response = await this.$axios.get(getters.apiUrl + '/sites/sites/1/fetch-data')

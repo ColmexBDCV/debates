@@ -1,7 +1,8 @@
 export default {
   ssr: true,
   router: {
-    prefetchLinks: true
+    prefetchLinks: true,
+    middleware: ['auth']
   },
   // Enable the loading indicator
   loading: {
