@@ -11,7 +11,7 @@
             path: `/admin/metadata/metadataregister/${data.item.id}`
           }"
         >
-          Metadatos personalizados
+          Agregar Informacón
         </b-link>
         <!-- <b-button
           variant="primary"

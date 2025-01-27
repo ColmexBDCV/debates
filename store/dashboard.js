@@ -149,6 +149,14 @@ export const actions = {
       console.error('Error fetching metadata site:', error)
       throw error // Lanza el error para manejarlo en el componente si es necesario
     }
+  },
+  async deleteMetadata ({ commit, rootState }, metadataId) {
+    try {
+      await this.$axios.$delete(`${rootState.apiUrl}/metadata/${metadataId}`)
+    } catch (error) {
+      console.error('Error deleting metadata site:', error)
+      throw error
+    }
   }
 }
 

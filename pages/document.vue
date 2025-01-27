@@ -15,12 +15,20 @@
       <b-row>
          <!-- Contenedor para el visualizador de PDF -->
          <b-col cols="12" class="">
-          <iframe
+          <!--<iframe
             id="pdf_iframe"
             src="/web/viewer.html#zoom=auto"
             width="98%"
             height="600px"
+          />-->
+          <VideoPlayer
+            :src="pdfUrl"
+            width="98%"
+            height="600"
           />
+          <!--<video :src="pdfUrl" controls width="98%" autoplay type="video/mp4">
+              Tu navegador no soporta la reproducción de videos.
+          </video>-->
           <!-- Imagen de miniatura o botón de descarga -->
           <!-- <b-img v-if="!related" :src="get_url() + thumbnail" fluid />
           <b-button v-if="related" variant="primary" :href="`${get_url()}downloads/${related}`">
@@ -123,7 +131,7 @@ export default {
       immediate: true
     },
     pdfUrl (newUrl) {
-      if (newUrl) {
+      if (newUrl && this.has_model !== 'Video') {
         this.waitForIframeLoad()
       }
     }
@@ -146,6 +154,7 @@ export default {
         this.doc = documentData.data || {}
         this.url_share = `?id=${this.id}&has_model=${this.has_model}&thumbnail=${this.thumbnail}&related=${this.related}`
         this.pdfUrl = `${documentData.site.base_url}downloads/${this.related}`
+        this.pdfUrl = `${documentData.site.base_url}${this.doc.videos[0].src}`
         console.log('PDF url:', this.pdfUrl)
         console.log('Datos recibidos:', this.doc.iterables)
       } catch (error) {

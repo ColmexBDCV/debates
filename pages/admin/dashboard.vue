@@ -1,6 +1,6 @@
 <template>
   <b-container class="mt-5">
-    <h1>Dashboard</h1>
+    <h1>Información General</h1>
 
     <!-- Información del sitio -->
     <b-card class="mt-3">

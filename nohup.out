@@ -1289,3 +1289,298 @@ Datos recibidos: { 'Temas Discutidos': [ 'Tema Nuevo 3', 'Tema Nuevo 2', 'Tema N
   extension: '49 páginas' }
 middleware ejecutado
 Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+
+> debates@1.0.0 start
+> nuxt start
+
+
+ WARN  [unplugin-vue-i18n]  vue-i18n@8 is not supported, since sinece Vue 2 was EOL on 2023.
+
+
+ WARN  Module @nuxtjs/i18n is disabled due to incompatibility issues:
+ - [nuxt] Nuxt version >=3.0.0-rc.11 is required but currently using 2.18.1
+
+ℹ Listening on: http://172.16.143.6:4000/
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+Search Explore:  
+Search Page:  undefined
+SearchTerm: 
+Filters: undefined
+PageTerm: undefined
+Search Explore:  
+Search Page:  undefined
+SearchTerm: 
+Filters: undefined
+PageTerm: undefined
+
+ ERROR  Error al enviar el mensaje al webhook de Microsoft Teams: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error fetching data: Request failed with status code 500
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+SearchTerm: 
+Filters: 
+PageTerm: 1
+Facets: []
+Facets: { facet: [] }
+SearchTerm: undefined
+Filters: 
+PageTerm: 1
+Facets: []
+Facets: { facet: [] }
+[ 1, 2, 3, 4, 5, 6, 7, 8 ]
+SearData:  { site:
+   { id: 1,
+     repository_url:
+      'https://repositorio.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=Cart%C3%ADllas+ind%C3%ADgenas+ILV',
+     link_url: null,
+     monitor_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_creacion: '2024-10-15T06:11:54.472366',
+     user_id: 1,
+     name: 'Cartillas Indigenas',
+     collection: 'Cartíllas indígenas ILV',
+     base_url: 'https://repositorio.colmex.mx/',
+     contacto_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_modificacion: '2024-10-15T06:11:54.472366' },
+  data: { response: { docs: [Array], facets: [Array], pages: [Object] } } }
+
+ ERROR  Error al enviar el mensaje al webhook de Microsoft Teams: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Status: 400
+Datos del error: { detail: 'Error fetching data from repository: Expecting value: line 2 column 3 (char 5)' }
+Headers: { date: 'Wed, 27 Nov 2024 23:06:03 GMT',
+  server: 'uvicorn',
+  'content-length': '91',
+  'content-type': 'application/json' }
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+Search Explore:  
+Search Page:  undefined
+SearchTerm: 
+Filters: undefined
+PageTerm: undefined
+Search Explore:  
+Search Page:  undefined
+SearchTerm: 
+Filters: undefined
+PageTerm: undefined
+
+ ERROR  Error al enviar el mensaje al webhook de Microsoft Teams: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error fetching data: Request failed with status code 500
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+SearchTerm: 
+Filters: 
+PageTerm: 1
+Facets: []
+Facets: { facet: [] }
+SearchTerm: undefined
+Filters: 
+PageTerm: 1
+Facets: []
+Facets: { facet: [] }
+[ 1, 2, 3, 4, 5, 6, 7, 8 ]
+SearData:  { site:
+   { id: 1,
+     repository_url:
+      'https://repositorio.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=Cart%C3%ADllas+ind%C3%ADgenas+ILV',
+     link_url: null,
+     monitor_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_creacion: '2024-10-15T06:11:54.472366',
+     user_id: 1,
+     name: 'Cartillas Indigenas',
+     collection: 'Cartíllas indígenas ILV',
+     base_url: 'https://repositorio.colmex.mx/',
+     contacto_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_modificacion: '2024-10-15T06:11:54.472366' },
+  data: { response: { docs: [Array], facets: [Array], pages: [Object] } } }
+
+ ERROR  Error al enviar el mensaje al webhook de Microsoft Teams: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Status: 400
+Datos del error: { detail: 'Error fetching data from repository: Expecting value: line 2 column 3 (char 5)' }
+Headers: { date: 'Wed, 27 Nov 2024 23:07:27 GMT',
+  server: 'uvicorn',
+  'content-length': '91',
+  'content-type': 'application/json' }
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+Search Explore:  
+Search Page:  undefined
+SearchTerm: 
+Filters: undefined
+PageTerm: undefined
+Search Explore:  
+Search Page:  undefined
+SearchTerm: 
+Filters: undefined
+PageTerm: undefined
+SearchTerm: 
+Filters: 
+PageTerm: 1
+Facets: []
+Facets: { facet: [] }
+SearchTerm: undefined
+Filters: 
+PageTerm: 1
+Facets: []
+Facets: { facet: [] }
+[ 1 ]
+SearData:  { site:
+   { id: 1,
+     repository_url:
+      'https://biblio-rep.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=Debates+electorales',
+     link_url: null,
+     monitor_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_creacion: '2024-10-15T06:11:54.472366',
+     user_id: 1,
+     name: 'Debates Electorales',
+     collection: 'Debates Electorales',
+     base_url: 'https://biblio-rep.colmex.mx/',
+     contacto_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_modificacion: '2024-10-15T06:11:54.472366' },
+  data: { response: { docs: [Array], facets: [Array], pages: [Object] } } }
+SearData:  { site:
+   { id: 1,
+     repository_url:
+      'https://biblio-rep.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=Debates+electorales',
+     link_url: null,
+     monitor_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_creacion: '2024-10-15T06:11:54.472366',
+     user_id: 1,
+     name: 'Debates Electorales',
+     collection: 'Debates Electorales',
+     base_url: 'https://biblio-rep.colmex.mx/',
+     contacto_webhook:
+      'https://redescolmex.webhook.office.com/webhookb2/f5f44f0f-371e-4c95-b39d-4da3e230bb4e@93db1ea2-0b31-43e8-aece-2228fabb7af1/IncomingWebhook/8bbfaaeaaee34e458e2e0510acf92eef/811356f3-d509-4767-9780-a7bf281c13b6/V2Reivy6bmOBZ1Fd26f4G3MUZqcdi6ieE3EYHYfS4IXW41',
+     fecha_modificacion: '2024-10-15T06:11:54.472366' },
+  data: { response: { docs: [Array], facets: [Array], pages: [Object] } } }
+middleware ejecutado
+Ejecución en el servidor. No hay acceso a localStorage.
+Document Payload: [object Object]
+Document Payload: [object Object]
+
+ ERROR  Error al enviar el mensaje al webhook de Microsoft Teams: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error fetching document data: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error al obtener los datos del documento: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error al enviar el mensaje al webhook de Microsoft Teams: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error fetching document data: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+
+ ERROR  Error al obtener los datos del documento: Request failed with status code 404
+
+  at createError (node_modules/axios/lib/core/createError.js:16:15)
+  at settle (node_modules/axios/lib/core/settle.js:17:12)
+  at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:269:11)
+  at IncomingMessage.emit (node:events:531:35)
+  at endReadableNT (node:internal/streams/readable:1696:12)
+  at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
