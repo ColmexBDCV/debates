@@ -8,7 +8,7 @@
     </div>
 
     <!-- Alerta si no hay datos -->
-    <b-alert v-if="!metadata.length" variant="warning">
+    <b-alert v-if="metadata.length == 0" variant="warning">
       No se encontraron datos para este registro.
     </b-alert>
 

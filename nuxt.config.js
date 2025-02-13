@@ -1,8 +1,7 @@
 export default {
   ssr: true,
   router: {
-    prefetchLinks: true,
-    middleware: ['auth']
+    prefetchLinks: true
   },
   // Enable the loading indicator
   loading: {
@@ -78,7 +77,8 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/'
+    baseURL: '/',
+    credentials: true // Enviar cookies en cada solicitud
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

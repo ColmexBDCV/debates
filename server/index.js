@@ -36,4 +36,15 @@ app.post('/login', async (req, res) => {
   }
 })
 
+app.post('/logout', async (req, res) => {
+  try {
+    const response = await axios.post(apiUrl + '/users/logout')
+    res.status(200).json(response.data)
+    return response
+  } catch (loginError) {
+    console.error('Error al cerrar la sesion.:', loginError)
+    res.status(500).json({ message: 'Error al cerrar la sesion en coltem.' })
+  }
+})
+
 module.exports = app

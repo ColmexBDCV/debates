@@ -155,6 +155,7 @@ export default {
   },
   methods: {
     logout () {
+      this.$store.dispatch('auth/logout')
       // Elimina el token y redirige al login
       localStorage.removeItem('jwt')
       this.$router.push('/login')

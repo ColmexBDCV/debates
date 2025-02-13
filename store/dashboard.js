@@ -106,6 +106,7 @@ export const actions = {
       console.error('Error fetching data:', error)
     }
   },
+  // Obtiene los metadatos asociados a un registro
   async fetchMetadataSite ({ commit, rootState }, { idRegistro }) {
     try {
       const idSite = rootState.siteId
@@ -137,6 +138,7 @@ export const actions = {
       throw error // Lanza el error para manejarlo en el componente si es necesario
     }
   },
+  // Obtiene todos los metadatos existentes del sitio
   async fetchMetadata ({ commit, rootState }) {
     try {
       const response = await this.$axios.get(`${rootState.apiUrl}/metadata/`, {

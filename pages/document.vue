@@ -15,13 +15,15 @@
       <b-row>
          <!-- Contenedor para el visualizador de PDF -->
          <b-col cols="12" class="">
-          <!--<iframe
+          <iframe
+            v-if="has_model !== 'Video'"
             id="pdf_iframe"
             src="/web/viewer.html#zoom=auto"
             width="98%"
             height="600px"
-          />-->
+          />
           <VideoPlayer
+            v-else-if="has_model === 'Video'"
             :src="pdfUrl"
             width="98%"
             height="600"
@@ -154,7 +156,7 @@ export default {
         this.doc = documentData.data || {}
         this.url_share = `?id=${this.id}&has_model=${this.has_model}&thumbnail=${this.thumbnail}&related=${this.related}`
         this.pdfUrl = `${documentData.site.base_url}downloads/${this.related}`
-        this.pdfUrl = `${documentData.site.base_url}${this.doc.videos[0].src}`
+        // this.pdfUrl = `${documentData.site.base_url}${this.doc.videos[0].src}`
         console.log('PDF url:', this.pdfUrl)
         console.log('Datos recibidos:', this.doc.iterables)
       } catch (error) {

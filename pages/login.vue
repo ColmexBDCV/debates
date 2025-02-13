@@ -55,15 +55,15 @@ export default {
   methods: {
     async handleLogin () {
       try {
-        const response = await this.$store.dispatch('adminLogin', {
+        const response = await this.$store.dispatch('auth/login', {
           user: this.form.username,
           pass: this.form.password
         })
-        console.log(response.data)
-        const { accessToken } = response.data.token
+        //console.log(response.data)
+        //const { accessToken } = response.data.token
 
         // Guarda el token en localStorage
-        localStorage.setItem('jwt', accessToken)
+        //localStorage.setItem('jwt', accessToken)
 
         // Redirige al dashboard
         this.$router.push('/admin/dashboard')

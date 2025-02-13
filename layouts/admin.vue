@@ -96,7 +96,7 @@
           </ul>
         </div>
 
-        <nuxt-link to="/logout" class="nav-link text-light">Logout</nuxt-link>
+        <a class="nav-link text-light" @click.prevent="logout">Logout</a>
       </nav>
     </div>
 
@@ -109,6 +109,7 @@
 
 <script>
 export default {
+  middleware: 'auth',
   data () {
     return {
       isSidebarOpen: true, // Estado del sidebar
@@ -124,6 +125,15 @@ export default {
     },
     isActive (route) {
       return this.$route.path === route // Determina si la ruta actual es activa
+    },
+    async logout () {
+      try {
+        // Ejecutar la acción de logout en el store
+        await this.$store.dispatch('auth/logout')
+        this.$router.push('/login')
+      } catch (error) {
+        console.error('Error al cerrar sesión', error)
+      }
     }
   }
 }
